@@ -1,0 +1,9 @@
+STOCK SCRAPER
+
+initate a googlesearch (googlesearch library) or input specific url
+
+(if no url given, default is googlesearch)
+
+send a get request (urllib.request for threading/ requests library for individual requests [no threading])
+
+parse contents as desired (beautiful soup; nltk)
