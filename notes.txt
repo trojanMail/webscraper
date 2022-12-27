@@ -1,10 +1,10 @@
-STOCK SCRAPER
+NEWS SCRAPER
 - Requirements
-    - input specific url or no url ( if no url then scrape top 5 market tracking websites)
+    - input specific url or no url / specific topic or no topic( if no url or topic then scrape top 5 news websites from a google search)
 
     - send a get request (urllib.request for threading/ requests library for individual requests [no threading])
 
-    - parse contents to get top stocks and relevant statistics (beautiful soup)
+    - look for href; nav to href; look for article tag; or just look for article tag fail otherwise
 
     - provide to tool user in a user friendly manner
 
@@ -15,4 +15,8 @@ STOCK SCRAPER
 
 - Back End
     - Webscrapper
+    
+    - ParseContent
+    
+    - FormatText
 
