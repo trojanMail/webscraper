@@ -1,9 +1,10 @@
 STOCK SCRAPER
 
-initate a googlesearch (googlesearch library) or input specific url
+- input specific url or no url ( if no url then scrape top 5 market tracking websites)
 
-(if no url given, default is googlesearch)
+- send a get request (urllib.request for threading/ requests library for individual requests [no threading])
 
-send a get request (urllib.request for threading/ requests library for individual requests [no threading])
+- parse contents to get top stocks and relevant statistics (beautiful soup)
 
-parse contents as desired (beautiful soup; nltk)
+- provide to tool user in a user friendly manner
+
