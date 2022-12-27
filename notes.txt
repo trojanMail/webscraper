@@ -1,10 +1,18 @@
 STOCK SCRAPER
+- Requirements
+    - input specific url or no url ( if no url then scrape top 5 market tracking websites)
 
-- input specific url or no url ( if no url then scrape top 5 market tracking websites)
+    - send a get request (urllib.request for threading/ requests library for individual requests [no threading])
 
-- send a get request (urllib.request for threading/ requests library for individual requests [no threading])
+    - parse contents to get top stocks and relevant statistics (beautiful soup)
 
-- parse contents to get top stocks and relevant statistics (beautiful soup)
+    - provide to tool user in a user friendly manner
 
-- provide to tool user in a user friendly manner
+- Front End
+    - user interface (command line)
+
+    - improvement: graphical user interface(gui)
+
+- Back End
+    - Webscrapper
 
