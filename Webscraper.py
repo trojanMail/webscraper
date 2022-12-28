@@ -20,7 +20,7 @@ class Webscraper(Parser):
         # send get request
         for url in self.urls:
             with request.urlopen(url) as page:
-                with open(f"page{count}.html","wb") as file:
+                with open(f"pages/page{count}.html","wb") as file:
                     file.write(page.read())
                 count+=1
 
